@@ -1,0 +1,2 @@
+# hexo_translate_title
+使用Google翻译，百度翻译和有道翻译将Hexo中的汉字标题转成英文标题
