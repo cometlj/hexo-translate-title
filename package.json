@@ -4,12 +4,16 @@
   "description": "translate title from chinese to english",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "keywords": [
     "hexo",
     "permalink"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https:cometlj/hexo-translate-title.git"
+  },
   "author": "cometlj",
   "license": "MIT"
 }

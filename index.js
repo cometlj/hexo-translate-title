@@ -5,7 +5,10 @@ var hexo = hexo || {};
 var config = hexo.config;
 var util = require('./lib/util.js');
 
-hexo.extend.console.register('before_post_render', function(data){
+hexo.extend.filter.register('before_post_render', function(data){
+  if (!config.translate_title || !config.url || data.layout !== 'post') {
+    return data;
+  }
   let translate_way = config.translate_title.translate_way;
   if(translate_way=='google')
   {
@@ -19,4 +22,5 @@ hexo.extend.console.register('before_post_render', function(data){
   {
       util.baidu_translation(data,'zh','en');
   }
+  return data;
 });
