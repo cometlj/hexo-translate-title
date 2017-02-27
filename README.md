@@ -18,7 +18,8 @@ translate_title:
 ```
 
 ## TODO
-1. google 获取TKK的时候，是参照[这篇文章](http://blog.csdn.net/life169/article/details/52153929)里面的JS计算方式(谢谢作者！)，但是更换为初次获取`http://translate.google.cn/`则会报错，不知道什么原因。
+
++ google 获取TKK的时候，是参照[这篇文章](http://blog.csdn.net/life169/article/details/52153929)里面的JS计算方式(谢谢作者！)，但是更换为初次获取`http://translate.google.cn/`则会报错，不知道什么原因。
 
 ## 翻译效果评估
 google翻译 > baidu翻译 > 有道翻译
