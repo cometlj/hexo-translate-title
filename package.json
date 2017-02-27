@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https:cometlj/hexo-translate-title.git"
+    "url": "git+https://github.com/cometlj/hexo-translate-title"
   },
   "author": "cometlj",
   "license": "MIT"

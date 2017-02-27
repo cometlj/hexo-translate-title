@@ -16,7 +16,9 @@ hexo.extend.filter.register('before_post_render', function(data){
   }
   else if(translate_way=='youdao')
   {
-      util.youdao_translation(data);
+      let youdao_api_key = config.translate_title.youdao_api_key;
+      let youdao_keyfrom = config.translate_title.youdao_keyfrom;
+      util.youdao_translation(data,youdao_api_key,youdao_keyfrom);
   }
   else if(translate_way=='baidu')
   {
