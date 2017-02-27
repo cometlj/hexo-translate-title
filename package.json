@@ -1,0 +1,15 @@
+{
+  "name": "hexo-translate-title",
+  "version": "1.0.0",
+  "description": "translate title from chinese to english",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexo",
+    "permalink"
+  ],
+  "author": "cometlj",
+  "license": "MIT"
+}
