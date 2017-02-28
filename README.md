@@ -15,7 +15,10 @@ translate_title:
   translate_way: google    #google | baidu | youdao
   youdao_api_key: XXX
   youdao_keyfrom: XXX
+  is_need_proxy: true     #true | false
+  proxy_url: http://localhost:8123
 ```
+**注意**：判断是否需要配置google本地代理，因为我在本地是开启时才能访问google翻译的，如果没有被墙，请将`_config.yml` 下的`is_need_proxy: true`改为false。如果设置为true,请设置本地代理地址
 
 ## TODO
 

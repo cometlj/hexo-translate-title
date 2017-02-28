@@ -12,7 +12,9 @@ hexo.extend.filter.register('before_post_render', function(data){
   let translate_way = config.translate_title.translate_way;
   if(translate_way=='google')
   {
-      util.google_translation(data,'zh-CN','en');
+      let is_need_proxy = config.translate_title.is_need_proxy;
+      let proxy_url = config.translate_title.proxy_url;
+      util.google_translation(data,'zh-CN','en',is_need_proxy,proxy_url);
   }
   else if(translate_way=='youdao')
   {
