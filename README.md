@@ -8,7 +8,7 @@
 npm install hexo-translate-title --save
 ```
 ### 使用
-配置hexo项目下的`_config.yml`
+配置hexo根项目下的`_config.yml`
 
 ```yml
 translate_title:
