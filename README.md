@@ -25,6 +25,7 @@ translate_title:
 
 > * 判断是否需要配置google本地代理，因为我在本地是开启时才能访问google翻译的，如果没有被墙，请将`_config.yml` 下的`is_need_proxy: true`改为false。如果设置为true,请设置本地代理地址
 > * 目前google翻译，youdao翻译均可直接使用，百度翻译目前完成的为 **需要APP_ID的版本**，即需要在[百度翻译开放平台](http://api.fanyi.baidu.com/)，不需要APP_ID的版本目前正在努力研究，只差最后一步sign计算即可完成。
+> * 如果担心百度翻译开发平台的APP_ID和APP_KEY有泄漏风险，建议在百度翻译开发平台-》管理控制台的服务器地址一栏，填写好服务器IP即可
 
 #### 2.修改hexo根目录下的`_config.yml`
 
