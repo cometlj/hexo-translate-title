@@ -55,6 +55,7 @@ translate_title:
 
 1. google 获取TKK的时候，是参照[这篇文章](http://blog.csdn.net/life169/article/details/52153929)里面的JS计算方式(谢谢作者！)，但是更换为初次获取`http://translate.google.cn/`TKK值，参与计算获取tk时会计算出错，原因待查中。
 2. ~~百度翻译无APP_ID版本还未完成~~
+3. 百度无appid版本仍然需要写死token和header中的Cookie值，动态获取及拼接Cookie值的操作，百度服务端总是会998-Cookie超时的错误，目前没有什么好的解决方法，如果有哪位朋友知道的欢迎issue给我😄
 
 ## 翻译效果评估
 Google翻译 > Baidu翻译 > 有道翻译
