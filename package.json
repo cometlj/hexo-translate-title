@@ -1,11 +1,9 @@
 {
   "name": "hexo-translate-title",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Translate the Chinese title in the Hexo blog into english",
   "main": "index.js",
-  "scripts": {
-
-  },
+  "scripts": {},
   "keywords": [
     "hexo",
     "permalink"
