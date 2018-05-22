@@ -1,5 +1,5 @@
 ## hexo-translate-title
-使用Google翻译，百度翻译和有道翻译将Hexo中的汉字标题转成英文标题，配置完成后直接翻译，无需手工修改标题内容，目前已经到v1.0.5版本
+使用Google翻译，百度翻译和有道翻译将Hexo中的汉字标题转成英文标题，配置完成后直接翻译，无需手工修改标题内容
 
 ## 安装与使用
 
@@ -42,14 +42,18 @@ translate_title:
 
 ## 版本历程
 
-### v1.0.5
+### V1.0.7
+
+1.合并[ChaosTong](https://github.com/ChaosTong)PR,修正`hexo s`启动服务器时会一直调用翻译接口bug
+
+### v1.0.6
 
 1. 新增百度无appid功能，不需要申请百度翻译开放平台账号即可直接使用
 
-### v1.0.4
+### v1.0.5
 
 1. 添加async/await函数，引入`request-promise`请求操作库
- 
+
 
 ## TODO
 
