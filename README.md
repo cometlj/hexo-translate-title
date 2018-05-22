@@ -44,7 +44,7 @@ translate_title:
 
 ### V1.0.7
 
-1.合并[ChaosTong](https://github.com/ChaosTong)PR,修正`hexo s`启动服务器时会一直调用翻译接口bug
+1.合并 [ChaosTong](https://github.com/ChaosTong) 同学提交的PR,修正在在选择有appid版本百度翻译接口时，`hexo s`启动服务器时会一直调用翻译接口bug。
 
 ### v1.0.6
 
