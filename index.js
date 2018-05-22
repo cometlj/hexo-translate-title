@@ -22,7 +22,7 @@ hexo.extend.filter.register('before_post_render', async function (data) {
         let return_data = await util.youdao_translation(data, youdao_api_key, youdao_keyfrom);
     }
     else if (translate_way == 'baidu_with_appid') {
-        await util.baidu_translation_with_appid(data, 'zh', 'en', config.translate_title.baidu_appid, config.translate_title.baidu_appkey);
+        let return_data = await util.baidu_translation_with_appid(data, 'zh', 'en', config.translate_title.baidu_appid, config.translate_title.baidu_appkey);
     }
     else if (translate_way == 'baidu_no_appid') {
         let return_data = await util.baidu_translation_no_appid(data, 'zh', 'en');
