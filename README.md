@@ -3,10 +3,14 @@
 
 ## 安装与使用
 
+[![NPM](https://nodei.co/npm/hexo-translate-title.png?compact=true)](https://npmjs.org/package/hexo-translate-title)
+
 ### 安装
+
 ```bash
 npm install hexo-translate-title --save
 ```
+
 ### 使用
 
 #### 1.配置hexo根项目下的`_config.yml`
@@ -42,6 +46,14 @@ translate_title:
 
 ## 版本历程
 
+### V1.0.9
+
+1.修复[issue#8](https://github.com/cometlj/hexo-translate-title/issues/8)中提出的问题，在设置相同翻译器情况下，如果`translate_title`中有值，并且和翻译接口获取的翻译内容一致时，不做生成静态页和写入md文件操作。
+
+### V1.0.8
+
+版本对标-npm
+
 ### V1.0.7
 
 1.合并 [ChaosTong](https://github.com/ChaosTong) 同学提交的PR,修正在在选择有appid版本百度翻译接口时，`hexo s`启动服务器时会一直调用翻译接口bug。
@@ -58,8 +70,7 @@ translate_title:
 ## TODO
 
 1. google 获取TKK的时候，是参照[这篇文章](http://blog.csdn.net/life169/article/details/52153929)里面的JS计算方式(谢谢作者！)，但是更换为初次获取`http://translate.google.cn/`TKK值，参与计算获取tk时会计算出错，原因待查中。
-2. ~~百度翻译无APP_ID版本还未完成~~
-3. 百度无appid版本仍然需要写死token和header中的Cookie值，动态获取及拼接Cookie值的操作，百度服务端总是会998-Cookie超时的错误，目前没有什么好的解决方法，如果有哪位朋友知道的欢迎issue给我😄
+2. 百度无appid版本仍然需要固化token和header中的Cookie值，尚未完成动态获取及拼接Cookie值的操作，对端百度翻译接口会返回`Error 998-Cookie超时`的错误，目前没有什么好的解决方法，如果有哪位朋友知道的欢迎issue给我😄
 
 ## 翻译效果评估
 Google翻译 > Baidu翻译 > 有道翻译
