@@ -48,7 +48,7 @@ translate_title:
 
 ### V1.0.9
 
-1.修复[issue#8](https://github.com/cometlj/hexo-translate-title/issues/8)中提出的问题，在设置相同翻译器情况下，如果`translate_title`中有值，并且和翻译接口获取的翻译内容一致时，不做生成静态页和写入md文件操作。
+1. 修复[issue#8](https://github.com/cometlj/hexo-translate-title/issues/8)中提出的问题，在设置相同翻译器情况下，如果`translate_title`中有值，并且和翻译接口获取的翻译内容一致时，不做生成静态页和写入md文件操作。
 
 ### V1.0.8
 
@@ -56,7 +56,7 @@ translate_title:
 
 ### V1.0.7
 
-1.合并 [ChaosTong](https://github.com/ChaosTong) 同学提交的PR,修正在在选择有appid版本百度翻译接口时，`hexo s`启动服务器时会一直调用翻译接口bug。
+1. 合并 [ChaosTong](https://github.com/ChaosTong) 同学提交的PR,修正在在选择有appid版本百度翻译接口时，`hexo s`启动服务器时会一直调用翻译接口bug。
 
 ### v1.0.6
 
