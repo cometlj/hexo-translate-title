@@ -46,6 +46,9 @@ translate_title:
 
 ## 版本历程
 
+### V1.0.10
+1. 修复引用错误，将`request`库引用注释掉
+
 ### V1.0.9
 
 1. 修复[issue#8](https://github.com/cometlj/hexo-translate-title/issues/8)中提出的问题，在设置相同翻译器情况下，如果`translate_title`中有值，并且和翻译接口获取的翻译内容一致时，不做生成静态页和写入md文件操作。
