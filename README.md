@@ -24,6 +24,7 @@ translate_title:
   proxy_url: http://localhost:50018 # Your proxy_url
   baidu_appid: '' # Your baidu_appid
   baidu_appkey: '' # Your baidu_appkey
+  rewrite: false # is rewrite true | false 
 ```
 **注意**：
 
@@ -45,6 +46,9 @@ translate_title:
 3. 对于翻译的标题内容，去除标点符号，空格转换为横线连接，并剔除重复单词
 
 ## 版本历程
+
+### V1.0.12
+1. 添加`rewrite` 参数，默认为`false`，判断如果存在`translate_title`则不进行翻译，如果为`true`则强制翻译，慎用！
 
 ### V1.0.11
 1.添加`request`库依赖，`hexo`安装时候会报错
