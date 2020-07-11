@@ -10,6 +10,9 @@ hexo.extend.filter.register('before_post_render', async function (data) {
         console.log('config.url==>', config.url);
         return data;
     }
+    if(!(!data.translate_title || config.rewrite)) {
+        return data;
+    }
     let translate_way = config.translate_title.translate_way;
     if (translate_way == 'google') {
         let is_need_proxy = config.translate_title.is_need_proxy;
